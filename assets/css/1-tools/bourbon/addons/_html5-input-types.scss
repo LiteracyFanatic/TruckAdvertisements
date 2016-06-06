@@ -4,21 +4,21 @@
 // http://diveintohtml5.org/forms.html
 //************************************************************************//
 $inputs-list: 'input[type="email"]',
-              'input[type="number"]',
-              'input[type="password"]',
-              'input[type="search"]',
-              'input[type="tel"]',
-              'input[type="text"]',
-              'input[type="url"]',
+            'input[type="number"]',
+            'input[type="password"]',
+            'input[type="search"]',
+            'input[type="tel"]',
+            'input[type="text"]',
+            'input[type="url"]',
 
-              // Webkit & Gecko may change the display of these in the future
-              'input[type="color"]',
-              'input[type="date"]',
-              'input[type="datetime"]',
-              'input[type="datetime-local"]',
-              'input[type="month"]',
-              'input[type="time"]',
-              'input[type="week"]';
+            // Webkit & Gecko may change the display of these in the future
+            'input[type="color"]',
+            'input[type="date"]',
+            'input[type="datetime"]',
+            'input[type="datetime-local"]',
+            'input[type="month"]',
+            'input[type="time"]',
+            'input[type="week"]';
 
 // Bare inputs
 //************************************************************************//
@@ -42,7 +42,7 @@ $all-text-inputs-focus: assign-inputs($inputs-list, focus);
 // Example
 //************************************************************************//
 //   #{$all-text-inputs}, textarea {
-//     border: 1px solid red;
+//    border: 1px solid red;
 //   }
 
 
@@ -52,8 +52,8 @@ $all-text-inputs-focus: assign-inputs($inputs-list, focus);
 // input types that have a button-based input, excluding button.
 //************************************************************************//
 $inputs-button-list: 'input[type="button"]',
-                     'input[type="reset"]',
-                     'input[type="submit"]';
+                 'input[type="reset"]',
+                 'input[type="submit"]';
 
 // Bare inputs
 //************************************************************************//
@@ -82,5 +82,5 @@ $all-button-inputs-active: assign-inputs($inputs-button-list, active);
 // Example
 //************************************************************************//
 //   #{$all-button-inputs}, button {
-//     border: 1px solid red;
+//    border: 1px solid red;
 //   }
