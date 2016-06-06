@@ -16,8 +16,8 @@
     $pos: append($pos, $keyword, comma);
 
     $gradients: (
-      webkit-image: -webkit- + $prefix + $pos + $suffix,
-      spec-image: $image
+     webkit-image: -webkit- + $prefix + $pos + $suffix,
+     spec-image: $image
     )
   }
 
@@ -25,8 +25,8 @@
     $pos: str-slice($first-val, $is-spec-syntax + 3, str-length($first-val));
 
     $gradients: (
-      webkit-image: -webkit- + $prefix + $pos + $suffix,
-      spec-image: $image
+     webkit-image: -webkit- + $prefix + $pos + $suffix,
+     spec-image: $image
     )
   }
 
@@ -34,15 +34,15 @@
     @warn "Radial-gradient needs to be updated to conform to latest spec.";
 
     $gradients: (
-      webkit-image: null,
-      spec-image: $image
+     webkit-image: null,
+     spec-image: $image
     )
   }
 
   @else {
     $gradients: (
-      webkit-image: -webkit- + $image,
-      spec-image: $image
+     webkit-image: -webkit- + $image,
+     spec-image: $image
     )
   }
 

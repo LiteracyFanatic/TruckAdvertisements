@@ -6,13 +6,13 @@
   $vendor-gradients: null;
   @if $gradient-type == linear {
     @if $gradient-positions {
-      $pre-spec: nth($gradient-positions, 1);
-      $spec:     nth($gradient-positions, 2);
+     $pre-spec: nth($gradient-positions, 1);
+     $spec:    nth($gradient-positions, 2);
     }
   }
   @else if $gradient-type == radial {
     $pre-spec: nth($gradient-positions, 1);
-    $spec:     nth($gradient-positions, 2);
+    $spec:    nth($gradient-positions, 2);
   }
 
   @if $vendor {

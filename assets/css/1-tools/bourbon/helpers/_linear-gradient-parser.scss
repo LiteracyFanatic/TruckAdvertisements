@@ -20,8 +20,8 @@
     $pos: unquote($has-single-position + "");
 
     $gradients: (
-      webkit-image: -webkit- + $image,
-      spec-image: $prefix + "to " + $pos + $suffix
+     webkit-image: -webkit- + $image,
+     spec-image: $prefix + "to " + $pos + $suffix
     );
   }
 
@@ -32,8 +32,8 @@
 
   @else {
     $gradients: (
-      webkit-image: -webkit- + $image,
-      spec-image: $image
+     webkit-image: -webkit- + $image,
+     spec-image: $image
     );
   }
 

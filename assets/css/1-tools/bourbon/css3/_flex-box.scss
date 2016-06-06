@@ -66,31 +66,31 @@
 @mixin display($value) {
 //  flex | inline-flex
     @if $value == "flex" {
-        // 2009
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
+       // 2009
+       display: -webkit-box;
+       display: -moz-box;
+       display: box;
 
-        // 2012
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flexbox; // 2011 (IE 10)
-        display: flex;
+       // 2012
+       display: -webkit-flex;
+       display: -moz-flex;
+       display: -ms-flexbox; // 2011 (IE 10)
+       display: flex;
     }
 
     @elseif $value == "inline-flex" {
-        display: -webkit-inline-box;
-        display: -moz-inline-box;
-        display: inline-box;
+       display: -webkit-inline-box;
+       display: -moz-inline-box;
+       display: inline-box;
 
-        display: -webkit-inline-flex;
-        display: -moz-inline-flex;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
+       display: -webkit-inline-flex;
+       display: -moz-inline-flex;
+       display: -ms-inline-flexbox;
+       display: inline-flex;
     }
 
     @else {
-        display: $value;
+       display: $value;
     }
 }
 
@@ -110,7 +110,7 @@
 }
 
 // 2009 - box-orient ( horizontal | vertical | inline-axis | block-axis)
-//      - box-direction (normal | reverse)      
+//     - box-direction (normal | reverse)     
 // 2011 - flex-direction (row | row-reverse | column | column-reverse)
 // 2012 - flex-direction (row | row-reverse | column | column-reverse)
 @mixin flex-direction($value: row) {
@@ -121,27 +121,27 @@
     $direction: "normal";
 
     @if $value == row {
-        $value-2009: horizontal;
+       $value-2009: horizontal;
     }
 
     @elseif $value == "row-reverse" {
-        $value-2009: horizontal;
-        $direction: reverse;
+       $value-2009: horizontal;
+       $direction: reverse;
     }
 
     @elseif $value == column {
-        $value-2009: vertical;
+       $value-2009: vertical;
     }
 
     @elseif $value == "column-reverse" {
-        $value-2009: vertical;
-        $direction: reverse;
+       $value-2009: vertical;
+       $direction: reverse;
     }
 
     // 2009
     @include prefixer(box-orient, $value-2009, webkit moz spec);
     @if $direction == "reverse" {
-        @include prefixer(box-direction, $direction, webkit moz spec);
+       @include prefixer(box-direction, $direction, webkit moz spec);
     }
 
     // 2012
@@ -159,15 +159,15 @@
     // Alt values.
     $alt-value: $value;
     @if $value == nowrap {
-        $alt-value: single;
+       $alt-value: single;
     }
 
     @elseif $value == wrap {
-        $alt-value: multiple;
+       $alt-value: multiple;
     }
 
     @elseif $value == "wrap-reverse" {
-        $alt-value: multiple;
+       $alt-value: multiple;
     }
 
     @include prefixer(box-lines, $alt-value, webkit moz spec);
@@ -221,19 +221,19 @@
     // Alt values.
     $alt-value: $value;
     @if $value == "flex-start" {
-        $alt-value: start;
+       $alt-value: start;
     }
 
     @elseif $value == "flex-end" {
-        $alt-value: end;
+       $alt-value: end;
     }
 
     @elseif $value == "space-between" {
-        $alt-value: justify;
+       $alt-value: justify;
     }
 
     @elseif $value == "space-around" {
-        $alt-value: center;
+       $alt-value: center;
     }
 
     // 2009
@@ -254,11 +254,11 @@
     $alt-value: $value;
 
     @if $value == "flex-start" {
-        $alt-value: start;
+       $alt-value: start;
     }    
 
     @elseif $value == "flex-end" {
-        $alt-value: end;
+       $alt-value: end;
     }
 
     // 2009
@@ -277,11 +277,11 @@
 
     $value-2011: $value;
     @if $value == "flex-start" {
-        $value-2011: start;
+       $value-2011: start;
     }    
 
     @elseif $value == "flex-end" {
-        $value-2011: end;
+       $value-2011: end;
     }
 
     // 2012
@@ -297,19 +297,19 @@
 
     $value-2011: $value;
     @if $value == "flex-start" {
-        $value-2011: start;
+       $value-2011: start;
     }    
 
     @elseif $value == "flex-end" {
-        $value-2011: end;
+       $value-2011: end;
     }
 
     @elseif $value == "space-between" {
-        $value-2011: justify;
+       $value-2011: justify;
     }
 
     @elseif $value == "space-around" {
-        $value-2011: distribute;
+       $value-2011: distribute;
     }
 
     // 2012

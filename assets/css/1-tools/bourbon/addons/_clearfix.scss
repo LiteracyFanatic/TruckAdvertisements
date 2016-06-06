@@ -4,11 +4,11 @@
 //
 //    // Contain all floats within .wrapper
 //    .wrapper {
-//      @include clearfix;
-//      .content,
-//      .sidebar {
-//        float : left;
-//      }
+//     @include clearfix;
+//     .content,
+//     .sidebar {
+//       float : left;
+//     }
 //    }
 
 @mixin clearfix {
