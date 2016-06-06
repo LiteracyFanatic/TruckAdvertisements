@@ -20,9 +20,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-	description: 'Provide a description for your website to make it visible to search engines.'
-	rel-author:
-	rel-publisher:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author:
+  rel-publisher:
 
 #-------------------------------
 # Google Analytics Section
