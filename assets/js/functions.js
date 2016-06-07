@@ -20,18 +20,28 @@ function resizeVideo() {
 
     var $parent = $ytplayer.parent();
 
-    var newWidth = $parent.width() - 40;
+    var newHeight = $parent.height();
 
     var aspectRatio = $ytplayer.get(0).height / $ytplayer.get(0).width;
 
     console.log(aspectRatio);
 
     $ytplayer
-       .width(newWidth)
-       .height(newWidth * aspectRatio);
+       .height(newHeight)
+       .width(newHeight / aspectRatio);
+
+    if ($ytplayer.width() > $parent.width()) {
+        console.log('correction');
+
+        var newWidth = $parent.width();
+
+        $ytplayer
+       .height(newWidth * aspectRatio)
+       .width(newWidth);
+    }
 }
 
-function switchAd() {   
+function switchAd() {
     setInterval(function () {
 
         console.log('update');
