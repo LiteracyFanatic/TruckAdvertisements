@@ -1,35 +1,29 @@
 #-------------------------------
 # General Site Settings
 
-banner-message: 'Welcome to Racine Truck Sales, Your One-Stop Provider for Parts, Service, and Sales'
+banner-message: Welcome to Racine Truck Sales, Your One-Stop Provider for Parts, Service, and Sales
 
-title: Jordan Cannon's Design Portfolio
-description: Inventor // AutoCAD // SolidWorks
-email: cannonJm@msoe.com
+youtube-url: https://www.youtube.com/embed/videoseries?list=PLR5EBzKgvuttnDRqi4iz4IVED5_poLTwl
 
-# NOTE: The Logo and Background image are defined in the all.sass document.
+advertisements: 
+  - 
+    title: Gears
+    description: "These are gears."
+    image-name: hero-bg.jpg
+  - 
+    title: Tires 30% Off
+    description: Try out our new premium tires at a reduced rate.
+    image-name: tire.jpg
+  - 
+    title: SXS Pro
+    description: Years of research and design have gone into the creation of what is the best RZR and side by side seat in the industry. The all-new Corbeau SXS, combines everything that was missing in a quality side by side seat, with the quality and design that Corbeau is so well known for.
+    image-name: seat.jpg
 
-menu:
-- {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Contact, url: '#contact'}
 
-#-------------------------------
-# SEO Section
 
-# NOTE: Providing SEO information will make this website more searchable on the internet.
 
-seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author:
-  rel-publisher:
+title: Racine Truck Sales TV Advertisements
+description: 
+email: 
 
-#-------------------------------
-# Google Analytics Section
 
-# Analytics helps you understand who visits your website.
-# Learn more at: http://support.google.com/analytics/answer/1008065
-
-# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
-
-#google-analytics-ua: UA-XXXXXX-X
