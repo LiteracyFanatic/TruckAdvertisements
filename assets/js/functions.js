@@ -20,20 +20,18 @@ function resizeVideo() {
 
     var $parent = $ytplayer.parent();
 
-    var newHeight = $parent.height();
+    var newWidth = $parent.width() - 40;
 
     var aspectRatio = $ytplayer.get(0).height / $ytplayer.get(0).width;
 
     console.log(aspectRatio);
 
     $ytplayer
-       .height(newHeight)
-       .width(newHeight / aspectRatio)
-       .attr('margin-left', '100px')
-       .attr('margin-right', 'auto');
+       .width(newWidth)
+       .height(newWidth * aspectRatio);
 }
 
-function switchAd() {
+function switchAd() {   
     setInterval(function () {
 
         console.log('update');
@@ -51,5 +49,5 @@ function switchAd() {
             $ads.first().addClass('active');
         }
 
-    }, 5000);
+    }, 10000);
 }
