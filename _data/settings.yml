@@ -55,7 +55,7 @@ advertisements:
     image-name: seat.jpg
 
 # Time which each advertisement will display for. NO s FOR THIS ONE.
-ad-time: 5.0
+ad-time: 15.0
 
 # This should be a small textured image tile which can be repeated to form a pleasing background.
 # This field can be left blank if a solid color is desired.
