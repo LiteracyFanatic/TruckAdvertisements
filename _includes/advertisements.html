@@ -1,6 +1,19 @@
-﻿<div id="advertisement-wrapper" class="card">
-    <h2>Pretend there's an ad here!!!</h2>
-    <div id="img"></div>
-    <hr />
-    <h4>And this is totally a well crafted description of the product.</h4>
-</div>
+﻿{% for ad in site.data.settings.advertisements  %}
+    {% if forloop.first == true %}
+        <div class="advertisement-wrapper card active">
+            <h2>{{ad.title}}</h2>
+            <div class="product-image" style="background-image: url(../assets/img/{{ad.image-name}})"></div>
+            <hr />
+            <h4>{{ad.description}}</h4>
+        </div>
+    {% else %}
+        <div class="advertisement-wrapper card">
+            <h2>{{ad.title}}</h2>
+            <div class="product-image" style="background-image: url(../assets/img/{{ad.image-name}})"></div>
+            <hr />
+            <h4>{{ad.description}}</h4>
+        </div>
+    {% endif %}
+{% endfor %}
+
+

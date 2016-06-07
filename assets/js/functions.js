@@ -1,25 +1,20 @@
 $(document).ready(function () {
-    smoothScroll(300);
-    resizeVideo();
+    attachResizeVideo();
+    switchAd();
 });
 
+function attachResizeVideo() {
 
-// smoothScroll function is applied from the document ready function
-function smoothScroll(duration) {
-    $('a[href^="#"]').on('click', function (event) {
-
-       var target = $($(this).attr('href'));
-
-       if (target.length) {
-          event.preventDefault();
-          $('html, body').animate({
-             scrollTop: target.offset().top
-          }, duration);
-       }
+    $(window).resize(function () {
+        resizeVideo();
     });
+
+    resizeVideo();
 }
 
 function resizeVideo() {
+
+    console.log("fired");
 
     var $ytplayer = $('#ytplayer');
 
@@ -27,15 +22,34 @@ function resizeVideo() {
 
     var newHeight = $parent.height();
 
-    $ytplayer.data('aspectRatio', $ytplayer.get(0).height / $ytplayer.get(0).width)
-       .removeAttr('height')
-       .removeAttr('width');
+    var aspectRatio = $ytplayer.get(0).height / $ytplayer.get(0).width;
 
-    console.log($ytplayer.data('aspectRatio'));
+    console.log(aspectRatio);
 
     $ytplayer
        .height(newHeight)
-       .width(newHeight / $ytplayer.data('aspectRatio'))
+       .width(newHeight / aspectRatio)
        .attr('margin-left', '100px')
        .attr('margin-right', 'auto');
+}
+
+function switchAd() {
+    setInterval(function () {
+
+        console.log('update');
+        var $ads = $('.advertisement-wrapper');
+        var len = $ads.length;
+        
+        var $curAd = $ads.filter('.active');
+        $curAd.removeClass('active');
+
+        console.log($ads.index($curAd));
+
+        if ($ads.index($curAd) < len - 1) {
+            $curAd.next().addClass('active');
+        } else {
+            $ads.first().addClass('active');
+        }
+
+    }, 5000);
 }
