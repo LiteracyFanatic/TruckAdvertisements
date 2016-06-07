@@ -1,14 +1,47 @@
-#-------------------------------
-# General Site Settings
+#------------------------------------------------------------------------------------------------------------------------------------
+#
+# Site Settings
+#
+# This is a YAML file which can be edited to configure the text, images, colors, and videos on the site.
+#
+# The basic rules of editing are as folows:
+#
+# 1. Structure is conveyed by indentation. Use 2 spaces to indicate that an item belongs to the parent above it.
+#
+# 2. Pound signs are used to mark commented lines. If a piece of text needs to include a pound or other special symbol,
+#    it should be enclosed in quotation marks.
+#
+# 3. By default, text cannot span multiple lines. If a piece of text needs to extend over multiple lines, use the pipe character |.
+#
+# 4. To create visual breaks between paragraphs, use the HTML tag <br /> to start a new line. 2 of these tags will create a blank 
+#    line between your paragraphs.
+# 
+#------------------------------------------------------------------------------------------------------------------------------------
 
+# This is the text which will appear in a browser tab.
+title: Racine Truck Sales TV Advertisements
+
+# Message to display at the bottom of the page.
 banner-message: Welcome to Racine Truck Sales, Your One-Stop Provider for Parts, Service, and Sales
 
+# Increase this value to make the text in the banner move more slowly. Be sure to include the s for seconds.
+banner-time: 20.0s
+
+# Image which will appear next to the banner message.
+logo-url: logo.jpg
+
+# Add the url for a YouTube playlist here. This will be listed under the src attribute of the embed dialog.
 youtube-url: https://www.youtube.com/embed/videoseries?list=PLR5EBzKgvuttnDRqi4iz4IVED5_poLTwl
 
+# This list can be edited to configure the advertisements which will be displayed. It is very important that each level
+# of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements: 
   - 
     title: Gears
-    description: "These are gears."
+    description: |
+      These are gears.
+
+      These are gears.
     image-name: hero-bg.jpg
   - 
     title: Tires 30% Off
@@ -16,14 +49,23 @@ advertisements:
     image-name: tire.jpg
   - 
     title: SXS Pro
-    description: Years of research and design have gone into the creation of what is the best RZR and side by side seat in the industry. The all-new Corbeau SXS, combines everything that was missing in a quality side by side seat, with the quality and design that Corbeau is so well known for.
+    description: | 
+      Years of research and design have gone into the creation of what is the best RZR and side by side seat in the industry.<br /> <br />
+      The all-new Corbeau SXS, combines everything that was missing in a quality side by side seat, with the quality and design that Corbeau is so well known for.
     image-name: seat.jpg
 
+# Time which each advertisement will display for. NO s FOR THIS ONE.
+ad-time: 5.0
 
+# This should be a small textured image tile which can be repeated to form a pleasing background.
+# This field can be left blank if a solid color is desired.
+background-url: bg-image.png
 
+# This can be a color name like 'blue' or a hexadecimal like '#DCDFE0'.
+background-color: '#DCDFE0'
 
-title: Racine Truck Sales TV Advertisements
-description: 
-email: 
+# This color will be used for borders.
+accent-color: '#28B3B5'
+
 
 

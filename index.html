@@ -2,12 +2,11 @@
 layout: default
 ---
 
-
 <div id="page-wrap">
-    <div id="full-screen-container" style="background-image: url('{{site.baseurl}}/assets/img/bg-image-3.png')">
+    <div id="full-screen-container" style="background-image: url('{{site.baseurl}}/assets/img/{{site.data.settings.background-url}}')">
        <div id="grid-wrap">
           <div id="row-1">
-             <div id="advertisements-container"><!--
+             <div id="advertisements-container"  data-adTime="{{site.data.settings.ad-time}}"><!--
                 -->{% include advertisements.html %}<!--
              --></div><!--
              --><div id="video-container"><!--
