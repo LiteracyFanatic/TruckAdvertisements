@@ -48,22 +48,26 @@ function resizeVideo() {
 }
 
 function switchAd() {
+
+    $('.advertisement-wrapper').not(':first').hide();
+
     setInterval(function () {
 
         console.log('update');
         var $ads = $('.advertisement-wrapper');
         var len = $ads.length;
-        
+
         var $curAd = $ads.filter('.active');
-        $curAd.removeClass('active');
 
-        console.log($ads.index($curAd));
+        $curAd.fadeOut(1000, function () {
+            $curAd.removeClass('active');
+            if ($ads.index($curAd) < len - 1) {
+                console.log('true');
+                $curAd.next().fadeIn(1000).addClass('active');
+            } else {
+                $ads.first().fadeIn(1000).addClass('active');
+            }
+        });
 
-        if ($ads.index($curAd) < len - 1) {
-            $curAd.next().addClass('active');
-        } else {
-            $ads.first().addClass('active');
-        }
-
-    }, 10000);
+}, 10000);
 }
