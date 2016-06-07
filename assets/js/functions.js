@@ -20,6 +20,8 @@ function resizeVideo() {
 
     var $parent = $ytplayer.parent();
 
+
+
     var newHeight = $parent.height();
 
     var aspectRatio = $ytplayer.get(0).height / $ytplayer.get(0).width;
@@ -33,7 +35,11 @@ function resizeVideo() {
     if ($ytplayer.width() > $parent.width()) {
         console.log('correction');
 
-        var newWidth = $parent.width();
+        var widthPadding = $ytplayer.outerWidth() - $ytplayer.width();
+
+        console.log(widthPadding);
+
+        var newWidth = $parent.width() - widthPadding;
 
         $ytplayer
        .height(newWidth * aspectRatio)
