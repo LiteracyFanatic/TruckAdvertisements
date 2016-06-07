@@ -2,14 +2,14 @@
     {% if forloop.first == true %}
         <div class="advertisement-wrapper card active">
             <h2>{{ad.title}}</h2>
-            <div class="product-image" style="background-image: url(../../assets/img/{{ad.image-name}})"></div>
+            <div class="product-image" style="background-image: url('../assets/img/{{ad.image-name}}')"></div>
             <hr />
             <h4>{{ad.description}}</h4>
         </div>
     {% else %}
         <div class="advertisement-wrapper card">
             <h2>{{ad.title}}</h2>
-            <div class="product-image" style="background-image: url(../../assets/img/{{ad.image-name}})"></div>
+            <div class="product-image" style="background-image: url('../assets/img/{{ad.image-name}}')"></div>
             <hr />
             <h4>{{ad.description}}</h4>
         </div>
