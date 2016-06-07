@@ -11,3 +11,4 @@ sass:
   sass_dir: assets/css
   style: :nested
 
+baseurl: http://user.github.io/TruckAdvertisements
