@@ -22,7 +22,7 @@
 title: Racine Truck Sales TV Advertisements
 
 # Message to display at the bottom of the page.
-banner-message: Welcome to Racine Truck Sales, Your One-Stop Provider for Parts, Service, and Sales
+banner-message: Welcome to Kriete Truck Center Racine, Your One-Stop Provider for Parts, Service, and Sales
 
 # Increase this value to make the text in the banner move more slowly. Be sure to include the s for seconds.
 banner-time: 20.0s
@@ -52,6 +52,10 @@ advertisements:
     description: | 
       Years of research and design have gone into the creation of what is the best RZR and side by side seat in the industry.<br /> <br />
       The all-new Corbeau SXS, combines everything that was missing in a quality side by side seat, with the quality and design that Corbeau is so well known for.
+    image-name: seat.jpg
+  -
+    title: New Ad
+    description: relevant text
     image-name: seat.jpg
 
 # Time which each advertisement will display for. NO s FOR THIS ONE.
