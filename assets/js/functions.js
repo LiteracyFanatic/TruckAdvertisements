@@ -1,7 +1,15 @@
 $(document).ready(function () {
-    attachResizeVideo();
+    console.log('ready');
+    //createVideo();
+    //attachSkipVideo();
+    //attachResizeVideo();
     switchAd();
 });
+
+
+
+
+
 
 function attachResizeVideo() {
     $(window).resize(function () {
@@ -11,27 +19,27 @@ function attachResizeVideo() {
 }
 
 function resizeVideo() {
-    var $ytplayer = $('#ytplayer');
+    var $player = $('#player');
 
-    var $parent = $ytplayer.parent();
+    var $parent = $player.parent();
 
     var newHeight = $parent.height();
 
-    var aspectRatio = $ytplayer.get(0).height / $ytplayer.get(0).width;
+    var aspectRatio = $player.get(0).height / $player.get(0).width;
 
-    $ytplayer
+    $player
        .height(newHeight)
        .width(newHeight / aspectRatio);
 
-    if ($ytplayer.width() > $parent.width()) {
+    if ($player.width() > $parent.width()) {
 
-        var widthPadding = $ytplayer.outerWidth() - $ytplayer.width();
+        var widthPadding = $player.outerWidth() - $player.width();
 
-        console.log(widthPadding);
+        //console.log(widthPadding);
 
         var newWidth = $parent.width() - widthPadding;
 
-        $ytplayer
+        $player
        .height(newWidth * aspectRatio)
        .width(newWidth);
     }
@@ -43,7 +51,7 @@ function switchAd() {
     var transitionTime = $('#advertisements-container').attr('data-adTime') * 1000;
 
     setInterval(function () {
-        console.log('update');
+        //console.log('update');
         var $ads = $('.advertisement-wrapper');
         var len = $ads.length;
 
@@ -52,7 +60,7 @@ function switchAd() {
         $curAd.fadeOut(1000, function () {
             $curAd.removeClass('active');
             if ($ads.index($curAd) < len - 1) {
-                console.log('true');
+                //console.log('true');
                 $curAd.next().fadeIn(1000).addClass('active');
             } else {
                 $ads.first().fadeIn(1000).addClass('active');
