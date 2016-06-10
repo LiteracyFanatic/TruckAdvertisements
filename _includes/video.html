@@ -1,4 +1,7 @@
-﻿<div id="video-wrapper">
+﻿---
+---
+
+<div id="video-wrapper">
     <!--<iframe id="player" class="card" width="560" height="315" autoplay="1"
             src="{{site.data.settings.youtube-url}}&modestbranding=1&autoplay=1&loop=1&controls=1&showinfo=0"
             frameborder="0"></iframe>-->
@@ -22,11 +25,10 @@
                 playerVars: {
                     listType: 'playlist',
                     list: '{{site.data.settings.youtube-id}}',
-                    autoplay: 1,
-                    controls: 1,
+                    controls: {%  if site.data.settings.youtube-controls %} 1 {% else %} 0 {% endif %},
                     modestbranding: 1,
                     loop: 1,
-                    showinfo: 0
+                    showinfo: {%  if site.data.settings.youtube-controls %} 1 {% else %} 0 {% endif %}
                 },
                 events: {
                     'onReady': onPlayerReady,
@@ -38,9 +40,11 @@
 
         // 4. The API will call this function when the video player is ready.
         function onPlayerReady(event) {
-            event.target.playVideo();
-            console.log('ready');
-            //alert('is this even working?');
+            setTimeout(function () {
+                console.log('ready');
+                player.playVideo();
+
+            }, 2000);
         }
 
         // 5. The API calls this function when the player's state changes.
@@ -61,7 +65,8 @@
         function onPlayerError(event) {
             //event.target.nextVideo();
             player.nextVideo();
-            alert('An error occurred: ' + event.data);
+            console.log('An error occurred: ' + event.data);
+            //alert('An error occurred: ' + event.data);
         }
 
     </script>
