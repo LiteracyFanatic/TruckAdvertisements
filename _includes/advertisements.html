@@ -4,14 +4,14 @@
             <h2>{{ad.title}}</h2>
             <div class="product-image" style="background-image: url('{{site.baseurl}}/assets/img/{{ad.image-name}}')"></div>
             <hr />
-            <p>{{ad.description}}</p>
+            {{ad.description}}
         </div>
     {% else %}
         <div class="advertisement-wrapper card">
             <h2>{{ad.title}}</h2>
             <div class="product-image" style="background-image: url('{{site.baseurl}}/assets/img/{{ad.image-name}}')"></div>
             <hr />
-            <p>{{ad.description}}</p>
+            {{ad.description}}
         </div>
     {% endif %}
 {% endfor %}
