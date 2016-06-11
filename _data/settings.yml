@@ -34,7 +34,7 @@ logo-url: logo.jpg
 youtube-id: PLR5EBzKgvuttnDRqi4iz4IVED5_poLTwl
 
 # Set to true to enable video controls. Set to false to disable.
-youtube-controls: true
+youtube-controls: false
 
 # This list can be edited to configure the advertisements which will be displayed. It is very important that each level
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
