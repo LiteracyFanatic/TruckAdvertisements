@@ -34,8 +34,6 @@ function resizeVideo() {
 
         var widthPadding = $player.outerWidth() - $player.width();
 
-        //console.log(widthPadding);
-
         var newWidth = $parent.width() - widthPadding;
 
         $player
@@ -50,7 +48,6 @@ function switchAd() {
     var transitionTime = $('#advertisements-container').attr('data-adTime') * 1000;
 
     setInterval(function () {
-        //console.log('update');
         var $ads = $('.advertisement-wrapper');
         var len = $ads.length;
 
@@ -59,7 +56,6 @@ function switchAd() {
         $curAd.fadeOut(1000, function () {
             $curAd.removeClass('active');
             if ($ads.index($curAd) < len - 1) {
-                //console.log('true');
                 $curAd.next().fadeIn(1000).addClass('active');
             } else {
                 $ads.first().fadeIn(1000).addClass('active');
