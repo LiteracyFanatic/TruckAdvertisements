@@ -38,28 +38,103 @@ youtube-controls: false
 
 # This list can be edited to configure the advertisements which will be displayed. It is very important that each level
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
-advertisements: 
-  - 
-    title: Gears
-    description: |
-      These are gears.
-
-      These are gears.
-    image-name: hero-bg.jpg
-  - 
-    title: Tires 30% Off
-    description: Try out our new premium tires at a reduced rate.
-    image-name: tire.jpg
-  - 
-    title: SXS Pro
-    description: | 
-      Years of research and design have gone into the creation of what is the best RZR and side by side seat in the industry.<br /> <br />
-      The all-new Corbeau SXS, combines everything that was missing in a quality side by side seat, with the quality and design that Corbeau is so well known for.
-    image-name: seat.jpg
+advertisements:
   -
-    title: New Ad
-    description: relevant text
-    image-name: seat.jpg
+    title: Service Special - Wheel Torque
+    description: <h3>Precision Wheel Torque with Printout</br>$70</h3>
+    image-name: data-torq.png
+  - 
+    title: 2010 Volvo VNL64T730  
+    description: <h2>$39,900</h2>
+    image-name: V281571U.JPG
+  - 
+    title: 2000 Volvo VHD64B200
+    description: <h2>$34,900</h2>
+    image-name: V520485U.jpg
+  - 
+    title: 2016 Volvo VNL64T670
+    description: <h2>$129,900</h2>
+    image-name: V94623U.jpg
+  -
+    title: 1994 Mack RD688P
+    description: <h2>$12,900</h2>
+    image-name: MAC020970U.jpg
+  -
+    title: 2008 Volvo VNL64T300
+    description: <h2>$46,900</h2>
+    image-name: V267910UA.jpg
+  -
+    title: 2009 Mack CXU613
+    description: <h2>$38,500</h2>
+    image-name: MAC7084U.jpg
+  -
+    title: 2009 Mack CXU613
+    description: <h2>$42,900</h2>
+    image-name: MAC7334u.jpg
+  -
+    title: 2012 Volvo VNL64T670
+    description: <h2>$62,900</h2>
+    image-name: V540837UA.jpg
+  -
+    title: 2012 Volvo VNL64T670
+    description: <h2>$59,900</h2>
+    image-name: V547638U-2012.jpg
+  -
+    title: 2012 Volvo VNL64T670
+    description: <h2>$64,900</h2>
+    image-name: V546458U.jpg
+  -
+    title: 2012 Mack CXU613
+    description: <h2>$59,900</h2>
+    image-name: MAC18590U-2012.jpg
+  -
+    title: 2012 Volvo VNL64T780
+    description: <h2>$56,900</h2>
+    image-name: VNL780.jpg
+  -
+    title: Gunite 3600AX 
+    description: <h2>Heavy Duty Brake Drum</br>$74.95</h2>
+    image-name: 3600ABrakeDrum.jpg
+  -
+    title: Gunite 3922X
+    description: <h2>Standard Duty Brake Drum</br>$64.95</h2>
+    image-name: 3600ABrakeDrum.jpg
+  -
+    title: Delco Remy Alternator
+    description: <h2>New with 3 Year Warranty</h2>
+    image-name: 36SI-pad-mount.png
+  -
+    title: Delco Remy Starter
+    description: <h2>New with 3 Year Warranty</br>$189</h2>
+    image-name: delco-starter.png
+  -
+    title: Accuride Aluminum Rim
+    description: <h2>Inside/Outside Polished</br>$210</h2>
+    image-name: aluminum-wheel.jpg
+  -
+    title: Merriter Brake Shoe Kit
+    description: <h2>8235-XK2124707QP</br>$43.95</h2>
+    image-name: brake-shoe-kit.JPG
+  -
+    title: Eaton-Spicer Clutch
+    description: <h2>Easy Pedal</br>$641</h2>
+    image-name: easy-pedal-clutch.jpg
+  -
+    title: Exide Heavy Duty Battery
+    description: <h2>EXIPX31925C</br>$66</h2>
+    image-name: exide925t.jpg
+  -
+    title: 30lb Freon
+    description: <h2>R134A Refrigerant Freon</br>$78</h2>
+    image-name: freon.jpg
+  -
+    title: Seats Incorporated Black Leather
+    description: <h2>66.188900MW61</br>$640</h2>
+    image-name: legacy-silver-sm.png
+  -
+    title: Stemco Wheel Chock
+    description: <h2>STM18455</br>$17.50</h2>
+    image-name: wheel-chock.JPG
 
 # Time which each advertisement will display for. NO s FOR THIS ONE.
 ad-time: 15.0
