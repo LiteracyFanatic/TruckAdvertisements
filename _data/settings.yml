@@ -93,47 +93,47 @@ advertisements:
     image-name: VNL780.jpg
   -
     title: Gunite 3600AX 
-    description: <h2>Heavy Duty Brake Drum</br>$74.95</h2>
+    description: <h3>Heavy Duty Brake Drum</br>$74.95</h3>
     image-name: 3600ABrakeDrum.jpg
   -
     title: Gunite 3922X
-    description: <h2>Standard Duty Brake Drum</br>$64.95</h2>
+    description: <h3>Standard Duty Brake Drum</br>$64.95</h3>
     image-name: 3600ABrakeDrum.jpg
   -
     title: Delco Remy Alternator
-    description: <h2>New with 3 Year Warranty</h2>
+    description: <h3>New with 3 Year Warranty</h3>
     image-name: 36SI-pad-mount.png
   -
     title: Delco Remy Starter
-    description: <h2>New with 3 Year Warranty</br>$189</h2>
+    description: <h3>New with 3 Year Warranty</br>$189</h3>
     image-name: delco-starter.png
   -
     title: Accuride Aluminum Rim
-    description: <h2>Inside/Outside Polished</br>$210</h2>
+    description: <h3>Inside/Outside Polished</br>$210</h3>
     image-name: aluminum-wheel.jpg
   -
     title: Merriter Brake Shoe Kit
-    description: <h2>8235-XK2124707QP</br>$43.95</h2>
+    description: <h3>8235-XK2124707QP</br>$43.95</h3>
     image-name: brake-shoe-kit.JPG
   -
     title: Eaton-Spicer Clutch
-    description: <h2>Easy Pedal</br>$641</h2>
+    description: <h3>Easy Pedal</br>$641</h3>
     image-name: easy-pedal-clutch.jpg
   -
     title: Exide Heavy Duty Battery
-    description: <h2>EXIPX31925C</br>$66</h2>
+    description: <h3>EXIPX31925C</br>$66</h3>
     image-name: exide925t.jpg
   -
     title: 30lb Freon
-    description: <h2>R134A Refrigerant Freon</br>$78</h2>
+    description: <h3>R134A Refrigerant Freon</br>$78</h3>
     image-name: freon.jpg
   -
     title: Seats Incorporated Black Leather
-    description: <h2>66.188900MW61</br>$640</h2>
+    description: <h3>66.188900MW61</br>$640</h3>
     image-name: legacy-silver-sm.png
   -
     title: Stemco Wheel Chock
-    description: <h2>STM18455</br>$17.50</h2>
+    description: <h3>STM18455</br>$17.50</h3>
     image-name: wheel-chock.JPG
 
 # Time which each advertisement will display for. NO s FOR THIS ONE.
