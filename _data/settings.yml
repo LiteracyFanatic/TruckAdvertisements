@@ -30,7 +30,7 @@ banner-time: 20.0s
 # Image which will appear next to the banner message.
 logo-url: logo.jpg
 
-# Add the url for a YouTube playlist here. This will be listed under the src attribute of the embed dialog.
+# Add the id for a YouTube playlist here. This will be the string of letters and numbers at the end of the url listed under the src attribute of the embed dialog.
 youtube-id: PLR5EBzKgvuttnDRqi4iz4IVED5_poLTwl
 
 # Set to true to enable video controls. Set to false to disable.
