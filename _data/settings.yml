@@ -45,8 +45,12 @@ advertisements:
     image-name: 2012_International_Prostar.jpg
   - 
     title: 2010 Mack Pinnacle 70" High Rise Ultra Shift
-    description: <h3>46,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    description: <h3>$46,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
     image-name: 2010_Mack_Pinnacle.jpg
+  - 
+    title: 2011 Mack Granite Quad
+    description: <h3>$134,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2011_Mack_Granite.jpg
   -
     title: Service Special - DataTorq
     description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
