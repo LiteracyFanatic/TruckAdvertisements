@@ -39,12 +39,17 @@ youtube-controls: false
 # This list can be edited to configure the advertisements which will be displayed. It is very important that each level
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
+  - 
+    title: 2012 International Prostar
+    description: <h3>$18,900</h3></br><p>Call Mary at 262-483-1717 for more details</p>
+    image-name: 2012_International_Prostar.JPG
   -
     title: Service Special - DataTorq
     description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
     image-name: data-torq.png
+
   - 
-    title: 2010 Volvo VNL64T730
+    title: 2010 Volvo 730
     description: <h2>$39,900</h2>
     image-name: V281571U.JPG
   - 
