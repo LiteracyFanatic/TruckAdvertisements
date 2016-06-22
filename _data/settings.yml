@@ -43,6 +43,10 @@ advertisements:
     title: 2012 International Prostar
     description: <h3>$18,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
     image-name: 2012_International_Prostar.jpg
+  - 
+    title: 2010 Mack Pinnacle 70" High Rise Ultra Shift
+    description: <h3>46,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2010_Mack_Pinnacle.jpg
   -
     title: Service Special - DataTorq
     description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
@@ -53,10 +57,6 @@ advertisements:
     description: <h2>$39,900</h2>
     image-name: V281571U.JPG
   - 
-    title: 2000 Volvo VHD64B200
-    description: <h2>$34,900</h2>
-    image-name: V520485U.jpg
-  - 
     title: 2016 Volvo VNL64T670
     description: <h2>$129,900</h2>
     image-name: V94623U.jpg
@@ -64,10 +64,6 @@ advertisements:
     title: 1994 Mack RD688P
     description: <h2>$12,900</h2>
     image-name: MAC020970U.jpg
-  -
-    title: 2008 Volvo VNL64T300
-    description: <h2>$46,900</h2>
-    image-name: V267910UA.jpg
   -
     title: 2009 Mack CXU613
     description: <h2>$38,500</h2>
