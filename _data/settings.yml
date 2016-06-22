@@ -4,7 +4,7 @@
 #
 # This is a YAML file which can be edited to configure the text, images, colors, and videos on the site.
 #
-# The basic rules of editing are as folows:
+# The basic rules of editing are as follows:
 #
 # 1. Structure is conveyed by indentation. Use 2 spaces to indicate that an item belongs to the parent above it.
 #
@@ -40,11 +40,11 @@ youtube-controls: false
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
   -
-    title: Service Special - Wheel Torque
-    description: <h3>Precision Wheel Torque with Printout</br>$70</h3>
+    title: Service Special - DataTorq
+    description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
     image-name: data-torq.png
   - 
-    title: 2010 Volvo VNL64T730  
+    title: 2010 Volvo VNL64T730
     description: <h2>$39,900</h2>
     image-name: V281571U.JPG
   - 
@@ -141,7 +141,7 @@ ad-time: 15.0
 
 # This should be a small textured image tile which can be repeated to form a pleasing background.
 # This field can be left blank if a solid color is desired.
-background-url: bg-image.png
+background-url: diamond_plate.jpg
 
 # This can be a color name like 'blue' or a hexadecimal like '#DCDFE0'.
 background-color: '#DCDFE0'
