@@ -40,6 +40,10 @@ youtube-controls: false
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
   - 
+    title: A new alternative for quality all-makes truck parts
+    description: <h3>Ask your counterman for more information</h3>
+    image-name: Road-Choice-Logo.png
+  - 
     title: SELECT PARTS STORE 24/7
     description: <h3>Ask your counterperson how to save even more</h3>
     image-name: select_parts_store.png
