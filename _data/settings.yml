@@ -40,65 +40,9 @@ youtube-controls: false
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
   - 
-    title: A new alternative for quality all-makes truck parts
-    description: <h3>Ask your counterman for more information</h3>
-    image-name: Road-Choice-Logo.png
-  - 
-    title: SELECT PARTS STORE 24/7
-    description: <h3>Ask your counterperson how to save even more</h3>
-    image-name: select_parts_store.png
-  - 
     title: 2016 Volvo 670
     description: <h3>Demo Unit With Extensive Warranty - $129,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
     image-name: V94623U.jpg
-  -
-    title: 2012 Volvo 670
-    description: <h3> Low Mileage ISX 500HP - $64,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: 2012_Volvo_670.jpg
-  - 
-    title: 2012 International Prostar
-    description: <h3>$18,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: 2012_International_Prostar.jpg
-  - 
-    title: 2010 Mack Pinnacle 70" High Rise Ultra Shift
-    description: <h3>$46,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: 2010_Mack_Pinnacle.jpg
-  - 
-    title: 2011 Mack Granite Quad
-    description: <h3>$134,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: 2011_Mack_Granite.jpg
-  - 
-    title: 2009 Hino Box Truck
-    description: <h3>$29,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: 2009_Hino_Box_Truck.jpg
-  -
-    title: Service Special - DataTorq
-    description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
-    image-name: data-torq.png
-  - 
-    title: 2010 Volvo 730
-    description: <h3>$39,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
-    image-name: V281571U.JPG
-  -
-    title: 2009 Mack CXU613
-    description: <h3>$38,500</h3>
-    image-name: MAC7084U.jpg
-  -
-    title: 2012 Volvo VNL64T670
-    description: <h3>$62,900</h3>
-    image-name: V540837UA.jpg
-  -
-    title: 2012 Volvo VNL64T670
-    description: <h3>$59,900</h3>
-    image-name: V547638U-2012.jpg
-  -
-    title: 2012 Volvo 670
-    description: <h3>$64,900</h3>
-    image-name: V546458U.jpg
-  -
-    title: 2012 Mack CXU613
-    description: <h3>$59,900</h3>
-    image-name: MAC18590U-2012.jpg
   -
     title: Gunite 3600AX 
     description: <h3>Heavy Duty Brake Drum</br>$74.95</h3>
@@ -108,6 +52,14 @@ advertisements:
     description: <h3>Standard Duty Brake Drum</br>$62</h3>
     image-name: 3600ABrakeDrum.jpg
   -
+    title: Service Special - DataTorq
+    description: <h3>Precision Wheel Torque with Printout</br>$75</h3>
+    image-name: data-torq.png
+  -
+    title: 2012 Volvo 670
+    description: <h3> Low Mileage ISX 500HP - $64,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2012_Volvo_670.jpg
+  -
     title: Delco Remy Alternator
     description: <h3>New with 3 Year Warranty</h3>
     image-name: 36SI-pad-mount.png
@@ -115,34 +67,82 @@ advertisements:
     title: Delco Remy Starter
     description: <h3>New with 3 Year Warranty</br>$240</h3>
     image-name: Delco-Remy-Starter.jpg
+  - 
+    title: A new alternative for quality all-makes truck parts
+    description: <h3>Ask your counterman for more information</h3>
+    image-name: Road-Choice-Logo.png
+  - 
+    title: 2012 International Prostar
+    description: <h3>$18,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2012_International_Prostar.jpg
   -
     title: Accuride Aluminum Rim
     description: <h3>Inside/Outside Polished</br>$210</h3>
     image-name: aluminum-wheel.jpg
+  - 
+    title: SELECT PARTS STORE 24/7
+    description: <h3>Ask your counterperson how to save even more</h3>
+    image-name: select_parts_store.png
+  - 
+    title: 2010 Mack Pinnacle 70" High Rise Ultra Shift
+    description: <h3>$46,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2010_Mack_Pinnacle.jpg
   -
     title: Meritor Brake Shoe Kit
     description: <h3>8235-XK2124707QP</br>$43.95</h3>
     image-name: brake-shoe-kit.JPG
+  - 
+    title: 2011 Mack Granite Quad
+    description: <h3>$134,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2011_Mack_Granite.jpg
   -
     title: Eaton-Spicer Clutch
     description: <h3>Easy Pedal</br>$641</h3>
     image-name: easy-pedal-clutch.jpg
+  - 
+    title: 2009 Hino Box Truck
+    description: <h3>$29,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: 2009_Hino_Box_Truck.jpg
   -
     title: Exide Heavy Duty Battery
     description: <h3>EXIPX31925C</br>$66</h3>
     image-name: exide925t.jpg
+  - 
+    title: 2010 Volvo 730
+    description: <h3>$39,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
+    image-name: V281571U.JPG
   -
     title: 30lb Freon
     description: <h3>R134A Refrigerant Freon</br>$78</h3>
     image-name: freon.jpg
   -
+    title: 2009 Mack CXU613
+    description: <h3>$38,500</h3>
+    image-name: MAC7084U.jpg
+  -
     title: Seats Incorporated Black Leather
     description: <h3>66.188900MW61</br>$640</h3>
     image-name: legacy-silver-sm.png
   -
+    title: 2012 Volvo 670
+    description: <h3>$62,900</h3>
+    image-name: V540837UA.jpg
+  -
+    title: 2012 Volvo 670
+    description: <h3>$59,900</h3>
+    image-name: V547638U-2012.jpg
+  -
     title: Stemco Wheel Chock
     description: <h3>STM18455</br>$17.50</h3>
     image-name: wheel-chock.JPG
+  -
+    title: 2012 Volvo 670
+    description: <h3>$64,900</h3>
+    image-name: V546458U.jpg
+  -
+    title: 2012 Mack CXU613
+    description: <h3>$59,900</h3>
+    image-name: MAC18590U-2012.jpg
 
 # Time which each advertisement will display for. NO s FOR THIS ONE.
 ad-time: 15.0
