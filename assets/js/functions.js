@@ -6,10 +6,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
 function attachResizeVideo() {
     $(window).resize(function () {
         resizeVideo();
@@ -47,19 +43,67 @@ function switchAd() {
 
     var transitionTime = $('#advertisements-container').attr('data-adTime') * 1000;
 
-    setInterval(function () {
-        var $ads = $('.advertisement-wrapper');
-        var len = $ads.length;
+    var timer = setInterval(nextAd, transitionTime);
 
-        var $curAd = $ads.filter('.active');
+    $(document).on('keydown', function (e) {
 
-        $curAd.fadeOut(1000, function () {
-            $curAd.removeClass('active');
-            if ($ads.index($curAd) < len - 1) {
-                $curAd.next().fadeIn(1000).addClass('active');
-            } else {
-                $ads.first().fadeIn(1000).addClass('active');
-            }
-        });
-    }, transitionTime);
+        switch (e.which) {
+            case 37: // left
+                clearInterval(timer);
+                timer = 0;
+                prevAd();
+                break;
+
+            case 39: // right
+                clearInterval(timer);
+                timer = 0;
+                nextAd();
+                break;
+
+            case 80: // p
+                if (!timer) {
+                    nextAd();
+                    timer = setInterval(nextAd, transitionTime);
+                } else {
+                    clearInterval(timer);
+                    timer = 0;
+                }
+                break;
+
+            default: return;
+        }
+        e.preventDefault();
+    })
+}
+
+function nextAd() {
+    var $ads = $('.advertisement-wrapper');
+    var len = $ads.length;
+
+    var $curAd = $ads.filter('.active');
+
+    $curAd.fadeOut(1000, function () {
+        $curAd.removeClass('active');
+        if ($ads.index($curAd) < len - 1) {
+            $curAd.next().fadeIn(1000).addClass('active');
+        } else {
+            $ads.first().fadeIn(1000).addClass('active');
+        }
+    });
+}
+
+function prevAd() {
+    var $ads = $('.advertisement-wrapper');
+    var len = $ads.length;
+
+    var $curAd = $ads.filter('.active');
+
+    $curAd.fadeOut(1000, function () {
+        $curAd.removeClass('active');
+        if ($ads.index($curAd) > 0) {
+            $curAd.prev().fadeIn(1000).addClass('active');
+        } else {
+            $ads.last().fadeIn(1000).addClass('active');
+        }
+    });
 }
