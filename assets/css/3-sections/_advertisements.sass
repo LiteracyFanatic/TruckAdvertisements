@@ -1,5 +1,5 @@
 ﻿.advertisement-wrapper
-	display: inline-block
+	display: none
 	position: absolute
 	top: 50%
 	left: 50%
@@ -8,6 +8,9 @@
 	text-align: center
 	overflow: hidden
 	+transform(translate(-50%, -50%))
+
+	&.active
+		display: block
 
 .product-image
 	postion: relative
