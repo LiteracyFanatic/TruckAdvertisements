@@ -40,6 +40,10 @@ youtube-controls: false
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
   - 
+    title: SELECT PARTS STORE - 24/7
+    description: <h3>Ask your counterperson how to save even more</h3>
+    image-name: select_parts_store.png
+  - 
     title: 2016 Volvo 670
     description: <h3>Demo Unit With Extensive Warranty - $129,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
     image-name: V94623U.jpg
