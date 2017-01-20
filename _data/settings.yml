@@ -39,14 +39,6 @@ youtube-controls: false
 # This list can be edited to configure the advertisements which will be displayed. It is very important that each level
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
-  -
-    title: Special Christmas Offer
-    description: <h3>ASK A SALES REP ABOUT HOW YOU CAN WIN <em>FREE</em> PRIZES</h3>
-    image-name: 12_Days_Flyer-1.jpg
-  -
-    title: Special Christmas Offer
-    description: <h3>ASK A SALES REP ABOUT HOW YOU CAN WIN <em>FREE</em> PRIZES</h3>
-    image-name: 12_Days_Flyer-2.jpg
   - 
     title: 2016 Volvo 670
     description: <h3>Demo Unit With Extensive Warranty - $129,900</h3></br><p><strong>Call Mary at 262-483-1717 for more details</strong></p>
