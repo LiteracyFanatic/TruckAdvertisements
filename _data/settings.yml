@@ -39,10 +39,22 @@ youtube-controls: false
 # This list can be edited to configure the advertisements which will be displayed. It is very important that each level
 # of indentation be marked with 2 spaces. A dash denotes a new item. Keep the descriptions relatively brief so that they fit.
 advertisements:
+  -
+    title: We're Hiring
+    description:
+      <ul>
+        <li>Experienced Truck Technicians</li>
+        <li>Parts Counter / Warehouse</li>
+        <li>CDL Drivers</li>
+      </ul>
+      <br/>
+      <em style="font-size&#58 20px;">Inquire with manager for details</em>
+    image-name: small_logo.png
+    id: hiring
   - 
     title: A new alternative for quality all-makes truck parts
     description:
-    image-name: Road-Choice-Logo.png  
+    image-name: Road-Choice-Logo.png
   -
     title: Road Choice
     description: <h3>Premium Wheel Seals</h3>
