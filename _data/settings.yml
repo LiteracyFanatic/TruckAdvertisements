@@ -41,7 +41,7 @@ youtube-controls: false
 advertisements:
   - 
     title: A new alternative for quality all-makes truck parts
-    description: <h3>Ask your counterman for more information</h3>
+    description:
     image-name: Road-Choice-Logo.png  
   -
     title: Road Choice
