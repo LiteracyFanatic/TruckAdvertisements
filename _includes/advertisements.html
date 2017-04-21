@@ -1,13 +1,13 @@
 ﻿{% for ad in site.data.settings.advertisements  %}
     {% if forloop.first == true %}
-        <div class="advertisement-wrapper card active">
+        <div class="advertisement-wrapper card active" {% if ad.id %} id="{{ad.id}}" {% endif %}>
             <h2>{{ad.title}}</h2>
             <div class="product-image" style="background-image: url('{{site.baseurl}}/assets/img/{{ad.image-name}}')"></div>
             <hr />
             {{ad.description}}
         </div>
     {% else %}
-        <div class="advertisement-wrapper card">
+        <div class="advertisement-wrapper card" {% if ad.id %} id="{{ad.id}}" {% endif %}>
             <h2>{{ad.title}}</h2>
             <div class="product-image" style="background-image: url('{{site.baseurl}}/assets/img/{{ad.image-name}}')"></div>
             <hr />
